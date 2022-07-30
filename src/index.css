@@ -15,7 +15,7 @@ body{
 }
 #logo-svg{
     width: 100%;
-    animation: rotate 5s ease-in 3ms infinite forwards;
+    animation: rotate 1s linear infinite ;
 }
 .nav-list{
     display: flex;
@@ -51,13 +51,16 @@ body{
 
 .tape{
     position: absolute;
-    width: 100%;
-    background-color: white;
-    padding: 1rem;
+    width: 97.6%;
     bottom: 0;
+    padding: 1rem;
+    border: 2px solid white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 .tape  h1{
-    animation: travel 6s ease-in infinite  forwards ;
+    animation: travel 10s linear infinite ;
+    color: rgb(46, 255, 168);
 }
 
 @keyframes rotate{
@@ -71,7 +74,7 @@ body{
 
 @keyframes travel {
     0%{
-        transform: translateX(2%);
+        transform: translateX(-100%);
     }
     100%{
         transform: translateX(100%);
