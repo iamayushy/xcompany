@@ -65,7 +65,7 @@ body{
     z-index: 5;
 }
 .tape  h1{
-    animation: travel 50s linear infinite ;
+    animation: travel 20s linear infinite ;
     color: rgb(46, 255, 168);
 }
 .game-btn{
