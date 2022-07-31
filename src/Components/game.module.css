@@ -10,11 +10,13 @@
     background-size: cover;
     border-radius: 50px;
     box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
 }
 .text{
     position: absolute;
-    top: 25%;
-    left: 33%;
+    top: 15%;
+    left: 30%;
     padding: 1rem;
     font-size: 3rem;
     line-height: 2;

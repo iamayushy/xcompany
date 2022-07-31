@@ -10,7 +10,12 @@ body{
     font-family: 'Press Start 2P', cursive;
     overflow-x: hidden;
 }
-
+.navbar{
+    position: sticky;
+    top: 0;
+    margin-bottom: 4rem;
+    z-index: 111;
+}
 .logo{
     margin-left: 2rem;
     border-radius: 100%;
@@ -94,6 +99,10 @@ body{
 }
 .flame{
    animation: fire 2s ease  infinite ;
+}
+.hero{
+    position: sticky;
+    top: 20%;
 }
 
 /* animations */

@@ -9,18 +9,17 @@
     background-size: cover;
     border-radius: 50px;
     box-shadow: 10px 10px 10px rgb(0, 0, 0);
-    position: relative;
+
+
 }
 .description{
-    color: white;
+    color: rgb(255, 247, 0);
     font-size: 2rem;
     line-height: 1.6;
     width: 50%;
     position: absolute;
-    top: 60%;
-    left: 35%;
-    animation: god 1s infinite;
-    transform: rotate(-20deg);
+    top: 70%;
+    left: 45%;
 }
 .copy{
     color: white;
