@@ -5,7 +5,7 @@ const Navbar = () => {
         <div className="navbar">
             <section className="nav-list">
                 <section className='logo'>
-                    <img id='logo-svg' src={x} alt="logo" />
+                    <h1> <span className='l-size'>(X)</span> nation</h1>
                 </section>
                 <section className='nav-links'>
                 <div className='n-link'>
