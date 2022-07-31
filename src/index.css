@@ -91,6 +91,7 @@ body{
 .flame{
    animation: fire 2s ease  infinite ;
 }
+
 /* animations */
 
 @keyframes rotate{

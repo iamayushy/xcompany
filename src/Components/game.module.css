@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.bg{
+    background-image: url('../assets/godmode.gif');
+    position: relative;
+    width: 95%;
+    margin: 4rem auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+.text{
+    position: absolute;
+    top: 25%;
+    left: 33%;
+    padding: 1rem;
+    font-size: 3rem;
+    line-height: 2;
+    width: 120px;
+    font-family: 'Press Start 2P', cursive;
+    animation: god 2s infinite;
+
+}
+
+@keyframes god{
+    0%{
+        color: rgb(255, 247, 0);
+    }
+    55%{
+        color: rgb(21, 255, 115);
+    }
+    100%{
+        color: rgb(255, 3, 209);
+    }
+}

@@ -1,3 +1,4 @@
+import { Game } from "./Components/Game"
 import { Hero } from "./Components/Hero"
 import { Navbar } from "./Components/Navbar"
 import { Tape } from "./Components/Tape"
@@ -9,7 +10,8 @@ function App() {
     <div className="App">
       <Navbar/>
       <Hero/>
-      <Tape/>
+      <Game/>
+      {/* <Tape/> */}
     </div>
   )
 }
