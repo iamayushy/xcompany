@@ -18,7 +18,7 @@ const Navbar = () => {
                     <Link to='/services'>Services</Link>
                 </div>
                 <div className='n-link'>
-                    <Link className='round-link' to='/game-studio'>Game Mode</Link>
+                    <Link className='round-link' to='/god-mode'>G O D MODE</Link>
                 </div>
                 </section>
             </section>
